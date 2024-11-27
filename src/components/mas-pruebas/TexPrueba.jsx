@@ -23,11 +23,11 @@ const TexPrueba = () => {
                     </AnimComponent>
                 </AnimComponent>
                 <AnimComponent
-                    esto="opacity-[100%] translate-y-0 blur-[0rem] brightness-[100%]"
-                    otro="opacity-[0%] translate-y-[4.5vh] blur-[0.2rem] brightness-[200%] saturate-[200%] "
+                    esto="opacity-[0%] translate-y-0 blur-[0rem] brightness-[100%]"
+                    otro="opacity-[100%] translate-y-[4.5vh] blur-[0.2rem] brightness-[200%] saturate-[200%] "
                     threshold="0.5"
                     rootMargin="-100px"
-                    className='transition-all z-40 duration-[1200ms] overflow-hidden'
+                    className='transition-all z-40 duration-[1800ms] overflow-hidden'
                 >
                     <h4 className="text-white font-bold tracking-widest">ESTO ES UN SUBTITULO </h4>
                     <p className="text-white font-regular w-full pr-8 sm:w-[50%] ">You get a workflow resting on a solid foundation: complete every model with pinpoint accuracy working with a Parasolid Siemens kernel under the hood. You get a workflow resting on a solid foundation: complete every model with pinpoint accuracy working with a Parasolid Siemens kernel under the hood.</p>

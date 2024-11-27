@@ -11,4 +11,8 @@ export const links = [
         title:"Mas",
         href: "/mas"
     },
+    {
+        title:"Cosas",
+        href: "/cosas"
+    },
 ]

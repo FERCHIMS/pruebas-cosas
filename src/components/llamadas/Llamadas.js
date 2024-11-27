@@ -5,5 +5,6 @@ export default async function getImages() {
         return data;
     }catch(error) {
         console.log("esto es un error", error);
+        return [];
     }
 }

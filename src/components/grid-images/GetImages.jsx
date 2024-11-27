@@ -4,7 +4,7 @@ import GridCont from "../grid-cont/GridCont"
 
 
 const GetImages = async() => {
-    const images = await getImages()
+     const images = await getImages()
   return (
     <div>
         <GridCont>

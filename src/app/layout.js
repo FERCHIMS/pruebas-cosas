@@ -3,6 +3,7 @@ import LinkHover from "@/components/link-hover/LinkHover";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import LenisScroll from "@/components/lenis-scroll/LenisScroll";
+import ThemeProvider from "./context/ThemeContext";
 /* import Header from "@/components/header/Header"; */
 
 
@@ -28,10 +29,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
       >
-        <LenisScroll>
-        <Header />
-        {children}
-      </LenisScroll>
+        {/* <ThemeProvider> */}
+          <LenisScroll>
+            <Header />
+            {children}
+          </LenisScroll>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

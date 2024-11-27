@@ -20,7 +20,9 @@ const Pruebas = () => {
         </div>
         <TexPrueba />
       </div>
-
+      <div>
+        <Image src="https://iili.io/dLCAQvS.jpg" quality={50} width={1000} height={1000} alt='esta foto' />
+      </div>
 
     </div>
 
